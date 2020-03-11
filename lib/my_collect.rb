@@ -8,3 +8,7 @@ def my_collect(collection)
   new_collection
 end
 my_collect(i) {puts "this is #{i}" }
+
+arr = [1,2,3]
+
+my_collect(arr)
