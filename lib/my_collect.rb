@@ -7,7 +7,7 @@ def my_collect(collection)
   end
   new_collection
 end
-my_collect(i) {puts "this is #{i}" }
+my_collect {|i| puts "this is #{i*2}" }
 
 arr = [1,2,3]
 
